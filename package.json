@@ -1,0 +1,51 @@
+{
+  "name": "svgr-test",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@types/jest": "24.0.23",
+    "@types/node": "12.12.7",
+    "@types/react": "16.9.11",
+    "@types/react-dom": "16.9.4",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "react-scripts": "3.2.0",
+    "typescript": "3.7.2"
+  },
+  "devDependencies": {
+    "@svgr/rollup": "4.3.3",
+    "rollup": "1.17.0",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-commonjs": "^10.0.1",
+    "rollup-plugin-css-porter": "^1.0.2",
+    "rollup-plugin-json": "^4.0.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-react-svg": "^3.0.3",
+    "rollup-plugin-replace": "^2.2.0",
+    "rollup-plugin-sass": "1.2.2",
+    "rollup-plugin-svg": "^2.0.0",
+    "rollup-plugin-typescript2": "0.24.3",
+    "rollup-plugin-url": "3.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
